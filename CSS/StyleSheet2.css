@@ -1,0 +1,132 @@
+﻿/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000066;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+    header a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        margin: 0 15px;
+    }
+
+    header ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    header li {
+        margin: 0 10px;
+    }
+
+    header a:hover {
+        text-decoration: underline;
+    }
+
+h1 {
+    text-align: center;
+    color: #000066;
+}
+
+/* Form Styles */
+.form-group {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+}
+
+    .form-group label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+asp\:TextBox {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.date-input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Button Styles */
+.buttons {
+    text-align: center;
+    margin: 20px;
+}
+
+asp\:Button {
+    background-color: #2461BF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+    asp\:Button:hover {
+        background-color: #1E4F8F;
+    }
+
+/* GridView Styles */
+.grid-view {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+}
+
+asp\:GridView {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+    asp\:GridView th, asp\:GridView td {
+        padding: 10px;
+        border: 1px solid #ddd;
+        text-align: center;
+    }
+
+    asp\:GridView th {
+        background-color: #000066;
+        color: white;
+    }
+
+    asp\:GridView tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    asp\:GridView tr:hover {
+        background-color: #ddd;
+    }
+
+/* Footer Styles */
+.footer {
+    background-color: #000066;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,101 @@
+﻿/* CSS/StyleSheet1.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #004d99;
+    padding: 10px 0;
+}
+
+    header ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+        header ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+            header ul li a {
+                text-decoration: none;
+                color: white;
+                font-size: 18px;
+                padding: 8px 16px;
+                transition: background-color 0.3s;
+            }
+
+                header ul li a:hover {
+                    background-color: #003366;
+                    border-radius: 5px;
+                }
+
+h2 {
+    color: #004d99;
+    text-align: center;
+    margin-top: 20px;
+}
+
+div p {
+    color: #333;
+    padding: 0 20px;
+    text-align: justify;
+}
+
+div video {
+    display: block;
+    margin: 20px auto;
+    max-width: 50%;
+    border: 2px solid #004d99;
+    border-radius: 10px;
+}
+
+section {
+    margin: 20px;
+}
+
+
+footer{
+    background: black;
+    color: white;
+    padding: 9px 20px;
+}
+
+#center{
+    text-align: center;
+}
+
+/* Clients Section */
+#center{ 
+    position: relative;
+    
+}
+
+
+#center{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+/* Style the resume link */
+#center a {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#center a:hover {
+    background-color: #555;
+}

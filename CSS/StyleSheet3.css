@@ -1,0 +1,130 @@
+﻿/* تنسيق قائمة التنقل */
+header {
+    background-color: #000066;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+    header ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+    }
+
+    header li {
+        margin: 0 10px;
+    }
+
+    header a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        margin: 0 15px;
+    }
+
+        header a:hover {
+            text-decoration: underline;
+        }
+
+/* تنسيق العنوان الرئيسي */
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+}
+
+/* تنسيق الحقول */
+.form-group {
+    margin: 20px auto;
+    width: 720px;
+}
+
+    .form-group label {
+        display: block;
+        font-size: 18px;
+        margin-bottom: 8px;
+        color: #333;
+    }
+
+    .form-group input[type="text"],
+    .form-group input[type="date"],
+    .form-group input[type="search"],
+    .form-group .aspNetDisabled {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+    }
+
+        .form-group input[type="text"]:focus,
+        .form-group input[type="date"]:focus,
+        .form-group input[type="search"]:focus {
+            border-color: #4CAF50;
+            outline: none;
+        }
+
+/* تنسيق الأزرار */
+.buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+    .buttons input[type="submit"],
+    .buttons input[type="button"] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin: 5px;
+    }
+
+        .buttons input[type="submit"]:hover,
+        .buttons input[type="button"]:hover {
+            background-color: #45a049;
+        }
+
+/* تنسيق الجدول */
+.grid-view {
+    margin: 20px auto;
+    width: 720px;
+    text-align: center;
+}
+
+    .grid-view table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .grid-view th,
+    .grid-view td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: center;
+    }
+
+    .grid-view th {
+        background-color: #000066;
+        color: white;
+    }
+
+    .grid-view tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    .grid-view tr:hover {
+        background-color: #ddd;
+    }
+
+/* تنسيق إضافي */
+.auto-style1 {
+}
+
+.date-input {
+}
